@@ -13,10 +13,15 @@ header {
     justify-content: space-between;
 }
 
+header a {
+    text-decoration: none;
+    color: black;
+}
+
 nav {
     display: flex;
     gap: 1rem;
-    margin: 2rem 0;
+    margin: 3rem 0;
     align-items: center;
 }
 
@@ -56,42 +61,56 @@ nav .shadow-btn span:last-of-type {
 main {
     display: flex;
     width: 100%;
+    flex-direction: column;
 }
 
-#banner {
-    width: 100%;
-}
-
-main .divider {
+.divider {
     height: 0.5rem;
     width: 100%;
-    background-color: #cccccc;
+    background-color: #cccccc;   
 }
 
-#banner {
+#profile {
+    margin: 3rem 0;
     display: flex;
+    align-items: center;
     flex-direction: column;
-    row-gap: 2rem;
+    background-color: #f1e9d9;
+    padding: 2rem 0;
 }
 
-#banner #banner-content {
-    background-image: url(/resources/images/banner.jpg);
-    background-size: 97rem 43.75rem;
-    height: 43.75rem;
+#profile img {
+    width: 15rem;
+    height: ;
+    border-radius: 100%;
+}
+
+#profile .content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 2rem;
 }
 
-#banner #banner-content h2 {
-    font-size: 30px;
+#profile .content h2 {
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+#profile .content h3 {
+    font-size: 1.5rem;
     margin: 0;
 }
 
-#banner #banner-content h3 {
-    font-size: 50px;
+#profile .content .what-can-i-do {
+    margin: 4rem;
+}
+
+#profile .content .what-can-i-do ul {
+    list-style-type: none;
     margin: 0;
-    font-weight: 700;
+}
+
+#profile .content .what-can-i-do svg {
+    height: 6px;
+    width: 6px;
 }
