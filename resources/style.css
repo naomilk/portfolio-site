@@ -27,9 +27,12 @@ nav {
 
 nav ul {
     list-style-type: none;
-    display: flex;
-    gap: 0.5rem;
-    padding: 0;
+    display: flex; 
+}
+
+nav ul li:not(:last-of-type)::after {
+    content: '|';
+    padding: 0.5rem;
 }
 
 .shadow-btn {
@@ -204,7 +207,7 @@ main {
 }
 
 #blog {
-    margin: 4rem 0;
+    margin: 4rem 0 0 0;
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -265,4 +268,12 @@ main {
 #blog a {
     text-decoration: none;
     color: black;
+}
+
+footer {
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    width: screen;
+    background-color: #cccccc;
 }
