@@ -32,12 +32,12 @@ nav ul {
     padding: 0;
 }
 
-nav .shadow-btn {
+.shadow-btn {
     position: relative;
     display: inline-block;
 }
 
-nav .shadow-btn span:first-child {
+.shadow-btn span:first-child {
    position: absolute;
    inset: 0;
    background-color: black;
@@ -45,11 +45,11 @@ nav .shadow-btn span:first-child {
    transform: translateX(0.25rem) translateY(0.25rem);
 }
 
-nav .shadow-btn:hover span:first-child {
+.shadow-btn:hover span:first-child {
     transform: translateX(0) translateY(0);
 }
 
-nav .shadow-btn span:last-of-type {
+.shadow-btn span:last-of-type {
     position: relative;
     display: inline-block;
     padding: 0.75rem 1.25rem;
@@ -151,5 +151,118 @@ main {
 }
 
 #profile-card-content a {
+    color: black;
+}
+
+#portfolio {
+    margin: 4rem 0 0 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column; 
+}
+
+#portfolio h2 {
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+
+#portfolio h3 {
+    margin: 0.75rem 0;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3rem 0;
+    column-gap: 3rem;
+    row-gap: 2rem;
+}
+
+#project-card {
+    width: 20%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    background-color: #ece1ca;
+}
+
+#project-card img {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+#project-card h4 {
+    margin: 1rem 0;
+}
+
+#project-card p {
+    margin: 0;
+}
+
+#blog {
+    margin: 4rem 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+#blog h2 {
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+
+#blog h3 {
+    margin: 0.75rem 0;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+#blog .container {
+    flex-direction: column;
+}
+
+#blog-card {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+}
+
+#blog-card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#blog-card-content h4 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+#blog-card-content h5 {
+    margin: 0 0 1rem 0;
+    font-weight: lighter;
+}
+
+#blog-card-content p {
+    margin: 0;
+    font-weight: lighter;
+}
+
+#blog-card img {
+    width: 20%;
+    border-radius: 100%;
+    margin-right: 1rem;
+}
+
+#blog .shadow-btn span:last-of-type {
+    display: flex;
+}
+
+#blog a {
+    text-decoration: none;
     color: black;
 }
