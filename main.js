@@ -10,3 +10,15 @@ Array.prototype.forEach.call(navItems, function (item) {
     });
 });
 
+
+// my javascript
+
+const arrowButton = document.getElementById('arrow-button')
+const contactMenu = document.getElementById('contact-menu')
+
+function showItems (){
+    contactMenu.classList.remove('hidden');
+};
+
+arrowButton.addEventListener('click', showItems);
+

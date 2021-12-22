@@ -300,8 +300,9 @@ footer {
 }
 
 #get-in-touch svg {
-     width: 1.5rem;
-     height: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
 }
 
 #contact .container {
@@ -324,4 +325,8 @@ footer {
 #contact .shadow-btn span:last-of-type {
     max-width: 5rem;
     text-align: center;
+}
+
+.hidden {
+    display: none;
 }
