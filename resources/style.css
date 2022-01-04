@@ -330,3 +330,12 @@ footer {
 .hidden {
     display: none;
 }
+
+.arrow {
+    border-radius: 100%;
+    padding: 0.5rem;
+}
+
+.arrow:hover {
+    background-color: #eccf93;
+}
