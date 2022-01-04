@@ -134,6 +134,7 @@ main {
 
 #profile-card img {
     width: 20rem;
+    height: 20rem;
 }
 
 #profile-card-content {
@@ -338,4 +339,291 @@ footer {
 
 .arrow:hover {
     background-color: #eccf93;
+}
+
+@media only screen and (max-width: 1024px) {
+    header {
+        padding: 1rem 0rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    nav {
+        display: flex;
+        gap: 1rem;
+        margin: 1.5rem 0;
+        align-items: center;
+    }
+
+    nav ul li {
+        font-size: 0.75rem;
+    }
+
+    .shadow-btn span {
+        font-size: 0.75rem;
+    }
+    
+    main {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .divider {
+        height: 0.5rem;
+        width: 100%;
+        background-color: #cccccc;   
+    }
+    
+    #intro {
+        margin: 1.5rem 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    #top-half {
+        height: 15rem;
+        width: 100%;
+        background-color: #f7e7c7;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    
+    #top-half h2 {
+        padding-left: 3rem;
+        font-size: 3rem;
+        margin: 1rem 0;
+    }
+    
+    #bottom-half {
+        height: 15rem;
+        width: 100%;
+        background-color: #f0eeee;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .job-profile {
+        display: flex;
+        gap: 1rem;
+        padding-left: 3rem;
+    }
+    
+    .job-profile h3 {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+        font-weight: normal;
+    }
+    
+    #intro img {
+        width: 5%;
+        height: 5%;
+        height: auto;
+    }
+    
+    #profile {
+        margin: 2rem 0;
+        display: flex;
+        width: 100%;
+    }
+    
+    #profile-card {
+        display: flex;
+        gap: 2rem;
+    }
+    
+    #profile-card img {
+        width: 15rem;
+        height: 15rem;
+        align-self: center;
+    }
+    
+    #profile-card-content {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #profile-card-content h2 {
+        margin: 0.75rem 0;
+        font-size: 1.5rem;
+    }
+    
+    #profile-card-content h3 {
+        margin: 0.5rem 0;
+        font-weight: normal;
+        font-size: 1rem;
+    }
+    
+    #profile-card-content a {
+        color: black;
+    }
+    
+    #portfolio {
+        margin: 2rem 0;
+        display: flex;
+        width: 100%;
+        flex-direction: column; 
+    }
+    
+    #portfolio h2 {
+        margin: 0;
+        font-size: 1.5rem;
+    }
+    
+    #portfolio h3 {
+        margin: 0.75rem 0;
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        column-gap: 2rem;
+        row-gap: 1rem;
+    }
+    
+    #project-card {
+        width: 20%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem;
+        background-color: #ece1ca;
+    }
+    
+    #project-card img {
+        margin-bottom: 0.5rem;
+        width: 100%;
+    }
+    
+    #project-card h4 {
+        margin: 0.5rem 0;
+        font-size: ;
+    }
+    
+    #project-card p {
+        margin: 0;
+        font-size: 0.75rem;
+    }
+    
+    #blog {
+        margin: 2rem 0;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    #blog h2 {
+        margin: 1rem 0;
+        font-size: 1.5rem;
+    }
+    
+    #blog h3 {
+        margin: 0.75rem 0 2rem;
+        font-weight: normal;
+        font-size: 1rem;
+    }
+    
+    #blog .container {
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+    
+    #blog-card-content h4 {
+        margin: 1rem 0;
+        font-size: 1rem;
+    }
+    
+    #blog-card-content h5 {
+        margin: 0 0 1rem 0;
+        font-weight: lighter;
+        font-size: 0.75rem;
+    }
+    
+    #blog-card-content p {
+        margin: 0;
+        font-weight: lighter;
+        font-size: 0.75rem;
+    }
+    
+    #blog-card img {
+        width: 20%;
+        height: 20%;
+        border-radius: 100%;
+        margin-right: 1rem;
+        display: flex;
+        align-self: center;
+    }
+    
+    #contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #contact h1 {
+        font-size: 3rem;
+        margin: 3rem 0 0 0;
+    }
+    
+    #get-in-touch {
+        display: flex;
+        align-items: center;
+        column-gap: 0.75rem;
+    }
+    
+    #get-in-touch h2 {
+        margin: 2rem 0;
+    }
+    
+    #get-in-touch svg {
+        width: 1.5rem;
+        height: 1.5rem;
+        cursor: pointer;
+    }
+    
+    #contact .container {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .contact-card {
+        width: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 0.75rem;
+    }
+    
+    .contact-card img {
+        width: 5rem;
+    }
+    
+    #contact .shadow-btn span:last-of-type {
+        max-width: 5rem;
+        text-align: center;
+    }
+    
+    .hidden {
+        display: none;
+    }
+    
+    .arrow {
+        border-radius: 100%;
+        padding: 0.5rem;
+    }
+    
+    .arrow:hover {
+        background-color: #eccf93;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+
 }
